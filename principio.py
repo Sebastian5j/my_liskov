@@ -30,10 +30,9 @@ class Chofer():
         transporte.transportar()
 
 if __name__ == "__main__":
-    auto_chevy = Auto(pasajeros = 4)
+    auto_chevy      = Auto(pasajeros = 4)
+    auto_winstar    = Auto(pasajeros = 8)
     #auto_chevy.transportar()
-
-    auto_winstar = Auto(pasajeros = 8)
     #auto_winstar.transportar()
     
     mis_transportes = [auto_chevy, auto_winstar]
