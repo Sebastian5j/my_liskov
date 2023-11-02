@@ -1,2 +1,2 @@
 # my_liskov
-Propongo aqui los SOLID
+La intencion de este proyecto es mostrar el principio de Liskov a través de un ejemplo básico
