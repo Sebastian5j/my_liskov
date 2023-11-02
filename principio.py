@@ -37,7 +37,7 @@ class Chofer():
         print("Soy el chofer y voy a arrancar el transporte")
         transporte.transportar()
 
-if __name__ == "__main__":
+def test_liskov_principle():
     auto_chevy      = Auto(pasajeros = 3)
     auto_winstar    = Auto(pasajeros = 8)
 
@@ -51,3 +51,6 @@ if __name__ == "__main__":
     chofer = Chofer()
     for transporte in mis_transportes:
         chofer.manejar(transporte)
+
+if __name__ == "__main__":
+    test_liskov_principle()
